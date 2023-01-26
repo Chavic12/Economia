@@ -14,6 +14,7 @@ import { ContactosComponent } from './pages/contactos/contactos.component';
 import { QuienesComponent } from './pages/quienes/quienes.component';
 import { PagesComponent } from './pages/pages.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { TipoCalculoComponent } from './pages/tipo-calculo/tipo-calculo.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { HeaderComponent } from './shared/header/header.component';
     PagesComponent,
 
     HeaderComponent,
+     TipoCalculoComponent,
   ],
   imports: [
     BrowserModule,
