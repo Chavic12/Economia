@@ -12,6 +12,8 @@ import { ContactosComponent } from './pages/contactos/contactos.component';
 import { QuienesComponent } from './pages/quienes/quienes.component';
 import { PagesComponent } from './pages/pages.component';
 import { GraficaComponent } from './pages/grafica/grafica.component';
+import { TipoCalculoComponent } from './pages/tipo-calculo/tipo-calculo.component';
+import { IndicadoresComponent } from './pages/indicadores/indicadores.component';
 
 const routes: Routes = [
 
@@ -26,7 +28,9 @@ const routes: Routes = [
       { path: 'ambiental', component: AmbientalComponent },
       { path: 'institucional', component: InstitucionalComponent },
       { path: 'contactos', component: ContactosComponent },
+      { path: 'indicadores', component: IndicadoresComponent },
       { path: 'quienes', component: QuienesComponent },
+      { path: 'tipo-calculo', component: TipoCalculoComponent },
       { path: 'grafica', component: GraficaComponent },
       { path: 'home', component: HomeComponent },
     ]

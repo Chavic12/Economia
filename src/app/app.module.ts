@@ -15,6 +15,7 @@ import { QuienesComponent } from './pages/quienes/quienes.component';
 import { PagesComponent } from './pages/pages.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { TipoCalculoComponent } from './pages/tipo-calculo/tipo-calculo.component';
+import { IndicadoresComponent } from './pages/indicadores/indicadores.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { TipoCalculoComponent } from './pages/tipo-calculo/tipo-calculo.componen
 
     HeaderComponent,
      TipoCalculoComponent,
+     IndicadoresComponent,
   ],
   imports: [
     BrowserModule,
